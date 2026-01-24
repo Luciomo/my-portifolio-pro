@@ -1,6 +1,10 @@
 const About = () => {
   const skills = [
-    'React', 'TypeScript', 'Node.js', 'Figma', 'UI/UX Design', 'Motion Design'
+    'HTML5', 'CSS3', 'JavaScript', 'Python', 'Bash', 'Linux', 'Cisco', 'Git', 'GitHub', 'Docker', 'DevOps', 'Redes'
+  ];
+
+  const learning = [
+    'CCNA / CCNP', 'DevOps & Cloud', 'Automação com Python', 'Cibersegurança'
   ];
 
   return (
@@ -9,27 +13,25 @@ const About = () => {
         <div className="grid md:grid-cols-2 gap-16 items-start">
           <div>
             <h2 className="text-3xl md:text-4xl font-heading font-semibold mb-6 line-accent">
-              About Me
+              Sobre Mim
             </h2>
             <div className="space-y-4 text-muted-foreground leading-relaxed">
               <p>
-                I'm a creative developer based in San Francisco with over 5 years of experience 
-                building digital products. I specialize in creating intuitive, engaging user 
-                experiences that solve real problems.
+                Olá! Eu sou o Lucio Macedo, apaixonado por tecnologia e redes de computadores, 
+                programação web e cibersegurança. Trabalho com manutenção de hardware e redes.
               </p>
               <p>
-                My approach combines clean code with thoughtful design, ensuring every project 
-                I work on is both technically sound and visually compelling.
+                Atualmente focado em Infraestrutura, DevOps e DevSecOps. Estou sempre 
+                aprendendo novas tecnologias para evoluir profissionalmente.
               </p>
               <p>
-                When I'm not coding, you'll find me exploring new design trends, contributing 
-                to open-source projects, or enjoying a good cup of coffee.
+                Localização: Fortaleza, Ceará 🇧🇷
               </p>
             </div>
           </div>
           
           <div>
-            <h3 className="text-lg font-medium mb-6 text-foreground">Skills & Technologies</h3>
+            <h3 className="text-lg font-medium mb-6 text-foreground">Tecnologias & Ferramentas</h3>
             <div className="flex flex-wrap gap-3">
               {skills.map((skill) => (
                 <span 
@@ -41,21 +43,16 @@ const About = () => {
               ))}
             </div>
             
-            <div className="mt-12 pt-8 border-t border-border">
-              <div className="grid grid-cols-3 gap-8 text-center">
-                <div>
-                  <p className="text-3xl font-heading font-semibold text-gradient">5+</p>
-                  <p className="text-sm text-muted-foreground mt-1">Years Exp.</p>
-                </div>
-                <div>
-                  <p className="text-3xl font-heading font-semibold text-gradient">50+</p>
-                  <p className="text-sm text-muted-foreground mt-1">Projects</p>
-                </div>
-                <div>
-                  <p className="text-3xl font-heading font-semibold text-gradient">30+</p>
-                  <p className="text-sm text-muted-foreground mt-1">Clients</p>
-                </div>
-              </div>
+            <h3 className="text-lg font-medium mb-4 mt-8 text-foreground">🚀 Aprendendo</h3>
+            <div className="flex flex-wrap gap-3">
+              {learning.map((item) => (
+                <span 
+                  key={item}
+                  className="px-4 py-2 text-sm bg-primary/10 border border-primary/30 rounded-full text-primary"
+                >
+                  {item}
+                </span>
+              ))}
             </div>
           </div>
         </div>
