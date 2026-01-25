@@ -1,73 +1,86 @@
-# Welcome to your Lovable project
+# My Creative Showcase
 
-## Project info
+Este é um portfólio pessoal construído com tecnologias web modernas para exibir projetos, experiências e habilidades. O projeto utiliza uma arquitetura front-end robusta com Vite, React, TypeScript e é estilizado com Tailwind CSS e shadcn/ui.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+## 🚀 Demo ao Vivo
 
-## How can I edit this code?
+[**[Clique aqui para ver a demonstração ao vivo]**](https://luciomo.github.io/my-creative-showcase/)
 
-There are several ways of editing your application.
+*(Substitua `SEU_LINK_AQUI` pela URL do seu site publicado, por exemplo, na Vercel ou Netlify)*
 
-**Use Lovable**
+## ✨ Funcionalidades
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+- **Design Responsivo**: Totalmente adaptável para desktops, tablets e dispositivos móveis.
+- **Componentes Reutilizáveis**: Construído com um sistema de componentes modulares e reutilizáveis.
+- **Seções Principais**: Inclui seções como Sobre Mim, Experiência, Projetos e Contato.
+- **Tema Escuro/Claro**: Suporte para alternância de temas (se aplicável).
 
-Changes made via Lovable will be committed automatically to this repo.
+## 🛠️ Construído com
 
-**Use your preferred IDE**
+- **Framework**: [React](https://react.dev/)
+- **Build Tool**: [Vite](https://vitejs.dev/)
+- **Linguagem**: [TypeScript](https://www.typescriptlang.org/)
+- **Estilização**: [Tailwind CSS](https://tailwindcss.com/)
+- **Componentes UI**: [shadcn/ui](https://ui.shadcn.com/)
+- **Roteamento**: [React Router](https://reactrouter.com/)
+- **Animações**: [Framer Motion](https://www.framer.com/motion/)
+- **Testes**: [Vitest](https://vitest.dev/)
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## 🏁 Começando
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+Siga estas instruções para obter uma cópia do projeto e executá-lo em sua máquina local para desenvolvimento e testes.
 
-Follow these steps:
+### Pré-requisitos
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+- [Node.js](https://nodejs.org/en/) (versão 18 ou superior)
+- [Bun](https://bun.sh/) ou [NPM](https://www.npmjs.com/)
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+### Instalação
 
-# Step 3: Install the necessary dependencies.
-npm i
+1.  Clone o repositório:
+    ```sh
+    git clone https://github.com/SEU_USUARIO/my-creative-showcase.git
+    ```
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+2.  Navegue até o diretório do projeto:
+    ```sh
+    cd my-creative-showcase
+    ```
 
-**Edit a file directly in GitHub**
+3.  Instale as dependências (você pode usar `bun` ou `npm`):
+    ```sh
+    bun install
+    ```
+    ou
+    ```sh
+    npm install
+    ```
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## 📜 Scripts Disponíveis
 
-**Use GitHub Codespaces**
+No diretório do projeto, você pode executar:
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+- `npm run dev` ou `bun run dev`
+  - Inicia o aplicativo em modo de desenvolvimento. Abra [http://localhost:5173](http://localhost:5173) para vê-lo no navegador.
 
-## What technologies are used for this project?
+- `npm run build` ou `bun run build`
+  - Compila o aplicativo para produção na pasta `dist`.
 
-This project is built with:
+- `npm run preview` ou `bun run preview`
+  - Inicia um servidor local para visualizar a versão de produção (após o `build`).
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+- `npm run lint` ou `bun run lint`
+  - Executa o ESLint para analisar o código em busca de problemas.
 
-## How can I deploy this project?
+- `npm run test` ou `bun run test`
+  - Executa os testes uma vez usando o Vitest.
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+## 🚀 Deploy
 
-## Can I connect a custom domain to my Lovable project?
+A maneira mais fácil de fazer o deploy deste projeto é usando plataformas como:
 
-Yes, you can!
+- [Vercel](https://vercel.com)
+- [Netlify](https://www.netlify.com)
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+Ambas oferecem integração contínua com o GitHub, detectando automaticamente a configuração do Vite e fazendo o deploy a cada `push` para a branch principal.
+Mas foi usado o VSCode e o GitHub Actions para versionamento e deploy automático.
