@@ -6,7 +6,7 @@ import path from "path";
 export default defineConfig({
   plugins: [react()],
   // IMPORTANTE: O base deve corresponder ao nome do seu repositório no GitHub
-  base: "./",
+  base: "/my-creative-showcase/",
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
