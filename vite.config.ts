@@ -6,7 +6,7 @@ import path from "path";
 export default defineConfig({
   plugins: [react()],
   // IMPORTANTE: O base deve corresponder ao nome do seu repositório no GitHub
-  base: "/my-portifolio-pro/",
+  base: "/my-portifolio-pro/index.html",
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
