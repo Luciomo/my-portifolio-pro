@@ -13,7 +13,7 @@ const projects = [
   {
     id: 2,
     title: 'Filmes - Consumindo API',
-    category: 'JavaScript / API',
+    category: 'JavaScript / HTML / CSS',
     description: 'Projeto em HTML, CSS e JavaScript consumindo API externa para exibição de filmes e informações.',
     link: 'https://github.com/Luciomo/Filmes',
     icon: Film,
@@ -29,7 +29,7 @@ const projects = [
   {
     id: 4,
     title: 'Site Teste Connection',
-    category: 'DevOps / DevSecOps',
+    category: 'Python / HTML / CSS / Shell',
     description: 'Aplicação web que verifica URLs e E-mails falsos e Suspeitos.',
     link: 'https://github.com/Luciomo/ConnectionsTest',
     icon: Code,
