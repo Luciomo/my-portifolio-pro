@@ -1,8 +1,8 @@
 import { motion } from 'framer-motion';
 
 const About = () => {
-  const skills = ['HTML5', 'CSS3', 'JavaScript', 'Python', 'Bash', 'Linux', 'Cisco', 'Git', 'GitHub', 'Docker', 'DevOps', 'Redes'];
-  const learning = ['CCNA / CCNP', 'DevOps & Cloud', 'Automação com Python', 'Cibersegurança'];
+  const skills = ['HTML5', 'CSS3', 'JavaScript', 'Java', 'PHP', 'Python', 'Bash', 'Linux', 'Git', 'GitHub', 'Docker', 'DevOps', 'Redes', 'DevSecOps'];
+  const learning = ['CCNA / CCNP', 'DevOps & Cloud', 'Automação com Python', 'Cibersegurança', 'Desenvolvimento Web'];
 
   const containerVariants = {
     hidden: { opacity: 0 },
