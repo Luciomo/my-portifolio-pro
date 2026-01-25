@@ -5,19 +5,27 @@ const experiences = [
   {
     id: 1,
     role: 'Analista de Suporte / DevOps',
-    company: 'Empresa Atual',
-    period: '2022 - Presente',
+    company: 'Frelancer',
+    period: '2024 - Presente',
     description: 'Atuação com suporte técnico especializado, administração de servidores Linux e Windows. Implementação de pipelines CI/CD básicos e automação de tarefas administrativas com Python e Bash.',
     skills: ['Linux', 'Docker', 'Python', 'AWS'],
   },
   {
     id: 2,
     role: 'Técnico em Redes',
-    company: 'Experiência Anterior',
-    period: '2020 - 2022',
+    company: 'Terceirização',
+    period: '2020 - 2024',
     description: 'Configuração e manutenção de redes cabeadas e sem fio. Suporte a equipamentos Cisco (Switches e Roteadores), monitoramento de infraestrutura e atendimento a chamados.',
     skills: ['Cisco CCNA', 'TCP/IP', 'Firewall', 'Hardware'],
   },
+  {
+    id: 3,
+    role: 'Desenvolvedor Jr',
+    company: 'Terceirização',
+    period: '2011 - 2013',
+    description: 'Desenvolvimento e suporte a sistemas do orgão, utilizando as linguagens de programação Java, PHP e PL/SQL',
+    skills: ['Eclipse', 'Oracle', 'JBoss', 'iReport'],
+  }
 ];
 
 const Experience = () => {
