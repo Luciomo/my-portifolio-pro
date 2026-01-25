@@ -4,7 +4,7 @@ Este é um portfólio pessoal construído com tecnologias web modernas para exib
 
 ## 🚀 Demo ao Vivo
 
-[**[Clique aqui para ver a demonstração ao vivo]**](https://luciomo.github.io/my-creative-showcase/)
+[**[Clique aqui para ver a demonstração ao vivo]**](https://luciomo.github.io/my-portifolio-pro/)
 
 *(Substitua `SEU_LINK_AQUI` pela URL do seu site publicado, por exemplo, na Vercel ou Netlify)*
 
