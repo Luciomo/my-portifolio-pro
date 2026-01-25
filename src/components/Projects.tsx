@@ -28,10 +28,10 @@ const projects = [
   },
   {
     id: 4,
-    title: 'Conversão de Temperatura',
-    category: 'DevOps / Docker',
-    description: 'Aplicação web para conversão de temperatura, containerizada com Docker.',
-    link: 'https://github.com/Luciomo/conversao-temperatura',
+    title: 'Site Teste Connection',
+    category: 'DevOps / DevSecOps',
+    description: 'Aplicação web que verifica URLs e E-mails falsos e Suspeitos.',
+    link: 'https://github.com/Luciomo/ConnectionsTest',
     icon: Code,
   },
 ];
