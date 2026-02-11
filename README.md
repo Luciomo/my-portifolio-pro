@@ -6,7 +6,7 @@ Este é um portfólio pessoal construído com tecnologias web modernas para exib
 
 [**[Clique aqui para ver a demonstração ao vivo]**](https://luciomo.github.io/my-portifolio-pro/)
 
-*(Substitua `SEU_LINK_AQUI` pela URL do seu site publicado, por exemplo, na Vercel ou Netlify)*
+*(Substitua `https://luciomo.github.io/my-portifolio-pro/` pela URL do seu site publicado, por exemplo, na Vercel ou Netlify)*
 
 ## ✨ Funcionalidades
 
@@ -39,12 +39,12 @@ Siga estas instruções para obter uma cópia do projeto e executá-lo em sua m�
 
 1.  Clone o repositório:
     ```sh
-    git clone https://github.com/SEU_USUARIO/my-creative-showcase.git
+    git clone https://github.com/Luciomo/my-portifolio-pro.git
     ```
 
 2.  Navegue até o diretório do projeto:
     ```sh
-    cd my-creative-showcase
+    cd my-portifolio-pro
     ```
 
 3.  Instale as dependências (você pode usar `bun` ou `npm`):
