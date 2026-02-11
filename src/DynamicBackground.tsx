@@ -61,8 +61,8 @@ const DynamicBackground = () => {
       ctx.clearRect(0, 0, canvas.width, canvas.height);
       
       // Cores definidas via variável cacheada (muito mais rápido que consultar DOM)
-      const particleColor = isDark ? 'rgba(255, 255, 255, 0.15)' : 'rgba(0, 0, 0, 0.15)';
-      const lineColor = isDark ? 'rgba(255, 255, 255, 0.05)' : 'rgba(0, 0, 0, 0.05)';
+      const particleColor = isDark ? 'rgba(255, 255, 255, 0.15)' : 'rgba(37, 99, 235, 0.5)'; // Azul no tema claro
+      const lineColor = isDark ? 'rgba(255, 255, 255, 0.05)' : 'rgba(37, 99, 235, 0.15)'; // Linha azul mais suave
 
       ctx.fillStyle = particleColor;
       ctx.strokeStyle = lineColor;
