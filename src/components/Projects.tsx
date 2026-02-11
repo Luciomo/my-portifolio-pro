@@ -4,14 +4,22 @@ import { motion } from 'framer-motion';
 const projects = [
   {
     id: 1,
-    title: 'JS-Game',
+    title: 'Formulário de Contato',
     category: 'HTML / CSS / JavaScript',
-    description: 'Repositório com exercícios e projetos em HTML, CSS e JavaScript. Aulas e exercícios práticos de desenvolvimento web.',
-    link: 'https://github.com/Luciomo/js-game',
+    description: 'Projeto de formulário de contato com validação e envio de dados usando JavaScript. Uso CRUD para armazenar os dados localmente no navegador.',
+    link: 'https://github.com/Luciomo/Formulario',
     icon: Code,
   },
   {
     id: 2,
+    title: 'JS-Game',
+    category: 'HTML / CSS / JavaScript',
+    description: 'Repositório com exercícios e projetos em HTML, CSS e JavaScript. Projeto de lógica de programação com JavaScript, de adivinhação de número.',
+    link: 'https://github.com/Luciomo/js-game',
+    icon: Code,
+  },
+  {
+    id: 3,
     title: 'Filmes - Consumindo API',
     category: 'JavaScript / HTML / CSS',
     description: 'Projeto em HTML, CSS e JavaScript consumindo API externa para exibição de filmes e informações.',
@@ -19,7 +27,7 @@ const projects = [
     icon: Film,
   },
   {
-    id: 3,
+    id: 4,
     title: 'Scripts & Automação',
     category: 'Python / Bash / Linux',
     description: 'Scripts e estudos relacionados a redes (CCNA/CCNP), automação e administração de sistemas.',
@@ -27,11 +35,19 @@ const projects = [
     icon: Terminal,
   },
   {
-    id: 4,
+    id: 5,
     title: 'Site Teste Connection',
     category: 'Python / HTML / CSS / Shell',
     description: 'Aplicação web que verifica URLs e E-mails falsos e Suspeitos.',
     link: 'https://github.com/Luciomo/ConnectionsTest',
+    icon: Code,
+  },
+  {
+    id: 6,
+    title: 'Jogo Wordle',
+    category: 'HTML / CSS / JavaScript',
+    description: 'Projeto de um jogo de adivinhação de palavras, inspirado no Wordle, utilizando HTML, CSS e JavaScript puro.',
+    link: 'https://github.com/Luciomo/Wordle',
     icon: Code,
   },
 ];
