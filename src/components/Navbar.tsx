@@ -58,7 +58,7 @@ const Navbar = () => {
               key={link.name}
               href={link.href}
               onClick={(e) => handleScroll(e, link.href)}
-              className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors"
+              className="nav-link-outline text-sm" // Aplica a classe aqui
             >
               {link.name}
             </a>

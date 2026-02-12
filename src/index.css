@@ -4,13 +4,13 @@
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 240 10% 3.9%;
+    --background: 210 20% 98%;
+    --foreground: 210 100% 20%;
     --card: 0 0% 100%;
-    --card-foreground: 240 10% 3.9%;
+    --card-foreground: 210 100% 20%;
     --popover: 0 0% 100%;
-    --popover-foreground: 240 10% 3.9%;
-    --primary: 240 5.9% 10%;
+    --popover-foreground: 210 100% 20%;
+    --primary: 210 100% 20%;
     --primary-foreground: 0 0% 98%;
     --secondary: 240 4.8% 95.9%;
     --secondary-foreground: 240 5.9% 10%;
@@ -35,14 +35,14 @@
   }
 
   .dark {
-    --background: 240 10% 3.9%;
-    --foreground: 0 0% 98%;
-    --card: 240 10% 3.9%;
-    --card-foreground: 0 0% 98%;
-    --popover: 240 10% 3.9%;
-    --popover-foreground: 0 0% 98%;
-    --primary: 0 0% 98%;
-    --primary-foreground: 240 5.9% 10%;
+    --background: 240 10% 10%;
+    --foreground: 38 96% 49%;
+    --card: 240 10% 10%;
+    --card-foreground: 38 96% 49%;
+    --popover: 240 10% 10%;
+    --popover-foreground: 38 96% 49%;
+    --primary: 38 96% 49%;
+    --primary-foreground: 210 100% 20%;
     --secondary: 240 3.7% 15.9%;
     --secondary-foreground: 0 0% 98%;
     --muted: 240 3.7% 15.9%;
@@ -71,5 +71,10 @@
   }
   body {
     @apply bg-background text-foreground;
+  }
+
+  /* Estilo para itens de menu com contorno combinando com o tema */
+  .nav-link-outline {
+    @apply border border-primary/50 text-primary hover:bg-primary/10 hover:border-primary transition-all duration-300 rounded-md px-4 py-2 font-medium dark:hover:shadow-[0_0_15px_hsl(var(--primary)/0.6)];
   }
 }
